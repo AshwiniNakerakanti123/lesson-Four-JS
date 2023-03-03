@@ -11,16 +11,19 @@
         margin:0px;
         font-style:oblique;
         text-align: center;
+        font-family: 'Kalam', cursive;
       }
            #clr {
-            background-color: #F2C94C;
+            background-color: #b5f24c;
             padding:1.5rem 1.5rem;
             margin-bottom: 60px;
             margin-top: 0px;
-            padding-top: 1.3rem;
+            padding-top: 1rem;
             
            }
           textarea{
+            /* writing-mode: horizontal-tb !important; */
+            font-family: inherit;
             width:80%; 
                     height: 10vh;
                     display:block;
@@ -30,7 +33,7 @@
                       width:40%;
                      margin-left: 30%;
                      margin-right: 30%;
-                                           
+                     border-radius: 0.5rem;                     
                  }
                  #output{
                    border:2px solid black;
@@ -42,21 +45,22 @@
                    /* box-sizing: border-box; */
                    margin-left: 30%;
                    margin-right: 30%;
-
+                  border-radius: 1rem;
                 
                  }
                 
-                 #btn{
+                 #btn-translate{
                     margin:30px;
                     margin-top: 5px;
                     margin-right: 360px;
-                    background-color: #F2C94C;
+                    background-color: #b5f24c;
                     padding-left: 1rem;
                     padding-right: 1rem;
                     padding-top:1rem;
                     padding-bottom: 1rem;
                     font-size: medium;
                     border-width: 0px;
+                    border-radius: 0.5rem;
                     /* border-width: 1px; */
                     /* resize:auto; */
                     /* text-align: center; */
@@ -64,19 +68,29 @@
 
                  }
                  #footer{
-                  background-color:#F2C94C;
+                  background-color:#b5f24c;
                 margin:0px;
                   padding-bottom: 0rem;
-                  padding-left: 2rem;
-
+                  padding-left: 10rem;
+                
                   font-size: X-large;
-                  text-align: center;
+                  text-align:center ;
+                  
                   
                  }
+                 #footer-para{
+                  font-size:large;
+                  background-color:#b5f24c;
+                margin:0px;
+                  padding-bottom: 0rem;
+                  padding-left: 20rem;
+                  padding-right: 20rem;
+                 }
                  #ash{
-                  margin-right: 360px;   
+                  margin-right: 340px;   
                   font-style: italic;
                   font-weight: bold;
+                  padding-top:0rem;
                  }
                  
     </style>
@@ -88,8 +102,8 @@
      <div id="ash" >Translation come here</div>
      <div id="output"></div>   
       <footer>
-        <div id="footer"><strong><span style= font-style:italic>  about</span></strong> </div>
-        <p id="footer"><span style="font-style:italic"> you a fan of minions? Did you know that the 
+        <div id="footer"><strong>about</strong> </div>
+        <p id="footer-para"><span style="font-style:italic"> you a fan of minions? Did you know that the 
           gibberish they say is an actual language. Use the 
           translator to convert your text from English to 
           Minion speak or Banana language.</span></p>
