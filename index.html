@@ -10,57 +10,83 @@
       body{
         margin:0px;
         font-style:oblique;
+        text-align: center;
       }
            #clr {
             background-color: #F2C94C;
-            padding:2rem 2rem;
+            padding:1.5rem 1.5rem;
             margin-bottom: 60px;
             margin-top: 0px;
+            padding-top: 1.3rem;
+            
            }
           textarea{
             width:80%; 
                     height: 10vh;
                     display:block;
-                    border:1px solid black;
-                    padding:1rem; 
+                    border:2px solid black;
+                   padding-bottom: 2rem;
                      margin:1rem;   
+                      width:40%;
+                     margin-left: 30%;
+                     margin-right: 30%;
+                                           
                  }
-                 #ash{
-                   border:1px solid black;
+                 #output{
+                   border:2px solid black;
                    height: 10vh;
-                   width:80%;
+                   width:40%;
                    margin:1rem;
                    padding:1rem;
+                   background: fixed;
+                   /* box-sizing: border-box; */
+                   margin-left: 30%;
+                   margin-right: 30%;
+
+                
                  }
+                
                  #btn{
                     margin:30px;
+                    margin-top: 5px;
+                    margin-right: 360px;
                     background-color: #F2C94C;
                     padding-left: 1rem;
                     padding-right: 1rem;
-                    padding-top:0.5rem;
-                    padding-bottom: 0.5rem;
+                    padding-top:1rem;
+                    padding-bottom: 1rem;
                     font-size: medium;
+                    border-width: 0px;
+                    /* border-width: 1px; */
+                    /* resize:auto; */
+                    /* text-align: center; */
+                  
+
                  }
                  #footer{
                   background-color:#F2C94C;
-                  margin:0px;
-                  padding-bottom: 1rem;
+                margin:0px;
+                  padding-bottom: 0rem;
                   padding-left: 2rem;
 
                   font-size: X-large;
                   text-align: center;
+                  
                  }
-                 /* #footer-head{
-                  padding-left: 3rem;
-                 } */
+                 #ash{
+                  margin-right: 360px;   
+                  font-style: italic;
+                  font-weight: bold;
+                 }
+                 
     </style>
 </head>
 <body>
     <h1 id="clr">Banana Language</h1>
-    <textarea id="txt-input" placeholder="">put your message here which u want to convert banana Language</textarea>
-    <button id="btn" >Translate to Banana</button>
-     <div style="font-size: larger;" >Translation come here</div>
-     <div id="ash"></div>   
+    <textarea id="txt-input" placeholder="put your message here which u want to convert banana Language"></textarea>
+    <button id="btn-translate" >Translate to Banana</button>
+     <div id="ash" >Translation come here</div>
+     <div id="output"></div>   
       <footer>
         <div id="footer"><strong><span style= font-style:italic>  about</span></strong> </div>
         <p id="footer"><span style="font-style:italic"> you a fan of minions? Did you know that the 
